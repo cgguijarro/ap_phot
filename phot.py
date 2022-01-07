@@ -9,9 +9,9 @@ from math import fabs, log10
 
 ##################################################
 
-PARAMETERS = '/Users/cgguijarro/Documents/Cornell_project/analysis/HXMM20/stellar_mass/photometry/spitzer/hxmm20_apertures_spitzer_test.txt' # list of input parameters: ra, dec, aperture radius, inner annulus radius, outer annulus radius
-IMAGE = '/Users/cgguijarro/Documents/Cornell_project/analysis/HXMM20/stellar_mass/photometry/spitzer/hxmm20_images_spitzer_test.txt' # list of input images paths
-OUTPUT = '/Users/cgguijarro/Documents/Cornell_project/analysis/HXMM20/stellar_mass/photometry/spitzer/output.txt' # name of the output photometry file
+PARAMETERS = '/Users/Documents/params.txt' # list of input parameters: ra, dec, aperture radius, inner annulus radius, outer annulus radius
+IMAGE = '/Users/Documents/images.txt' # list of input images paths
+OUTPUT = '/Users/Documents/output.txt' # name of the output photometry file
 pix_scl = 0.6 # pixel scale
 
 ##################################################
