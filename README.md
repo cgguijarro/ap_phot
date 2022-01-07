@@ -1,11 +1,9 @@
 # ap_phot
 Script for aperture photmetry with realistic errors based on empty apertures measurements
 
-In order to use the script it is very straighforward and self-explanatory, you just need to introduce (see the script for an example):
+In order to use the script, you just need to introduce (see the script for an example):
 
-- Path to where the individual pointings and associated primary beams are located (what you download from the FTP)
-- List of IDs (string)
-- List of RA (float)
-- List of Dec (float)
-- List of RA, Dec coordinates (string) preceded by J2000 and in hh:mm:ss dd:mm:ss
-- (if flux normalization weights applied) list of fluxes (float)
+- Path to .txt file that contains the following columns: ra, dec, aperture radius, inner annulus radius, outer annulus radius for background substraction
+- Path to .txt file where each row is an input image path
+- Name of output photometry file
+- Pixel scale (arcsec/pix)
