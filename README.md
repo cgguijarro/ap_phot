@@ -1,5 +1,5 @@
 # ap_phot
-Script for aperture photmetry with realistic errors based on empty apertures measurements
+Script for aperture photometry with realistic errors based on empty apertures measurements
 It requires R installed, as it internally runs a couple of secondary scripts in this language
 
 In order to use the script, you just need to run phot.py introducing (see the script for an example):
